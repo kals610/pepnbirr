@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>인스타그램 쇼핑 & 통계</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="인스타그램 마케팅, 통계, 해시태그 검색 및 인스타그램 쇼핑 pc 버전 제공.">
+    <meta name="author" content="Pepnbirr">
+    <meta name="keywords" content="PEPNBIRR, 인스타그램, 마케팅, SNS마케팅">
+    <meta property="og:title" content="인스타그램 쇼핑 & 통계"/>
+    <meta property="og:type" content="인스타그램.쇼핑몰.마케팅.SNS">
+    <meta property="og:url" content="http://shoplik.es"/>
+    <meta property="og:image" content="http://shoplik.es/@landing/favicon/android-icon-192x192.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="192" />
+    <meta property="og:image:height" content="192" />
+    <meta property="og:description" content="인스타그램 마케팅, 통계, 해시태그 검색 및 인스타그램 쇼핑 pc 버전 제공."/>
+    <meta property="og:article:author" content="Pepnbirr"/>
+    <link rel="canonical" href="http://shoplik.es">
+
+    <link rel="alternate" href="http://shoplik.es/" hreflang="x-default" />
+    <meta name="naver-site-verification" content="f11f236f0f4be1e7dab70241d624f581ce729c8f"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="./@landing/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./@landing/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./@landing/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./@landing/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./@landing/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./@landing/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./@landing/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./@landing/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./@landing/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./@landing/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./@landing/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./@landing/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./@landing/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./@landing/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./@landing/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "http://shoplik.es",
+      "author": "Pepnbirr",
+      "name": "Shoplikes",
+      "image": "http://shoplik.es/@landing/images/logo.png",
+      "about": "인스타그램 쇼핑 & 통계",
+      "description": "인스타그램 마케팅, 통계, 해시태그 검색 및 인스타그램 쇼핑 pc 버전 제공.",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "e-mail": "contact@shoplik.es",
+        "url": "http://shoplik.es",
+        "contactType": "customer service"
+      }]
+    }
+    </script>
+    <!--
+    <script src="/@landing/js/jquery-2.1.4.min.js?t=zdKjdmMAdsKq321I2d3y1uDZ"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.5/mobile-detect.min.js"></script>
+    <!--
+    <script src="/@landing/js/bootstrap.min.js?t=zdKjdmMAdsKq321I2d3y1uDZ"></script>
+    -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--
+    <script src="/@landing/js/wow.min.js?t=zdKjdmMAdsKq321I2d3y1uDZ"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!--
+    <script src="/@landing/js/jquery.magnific-popup.min.js?t=zdKjdmMAdsKq321I2d3y1uDZ"></script>
+    -->
+    <script src="./@landing/js/main.js?t=zdKjdmMAdsKq321I2d3y1uDZ"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./@landing/css/normalize.css?t=zdKjdmMAdsKq321I2d3y1uDZ"> <!-- CSS reset -->
+    <!--
+    <link rel="stylesheet" href="/@landing/css/bootstrap.min.css?t=zdKjdmMAdsKq321I2d3y1uDZ">
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css?t=zdKjdmMAdsKq321I2d3y1uDZ">
+    <link rel="stylesheet" href="./@landing/css/animate.min.css?t=zdKjdmMAdsKq321I2d3y1uDZ"><!-- Animate -->
+    <link rel="stylesheet" href="./@landing/css/style.css?td=zdKjdmMAdsKq321I2d3y1uDZ"> <!-- Resource style -->
+
+    <link rel="stylesheet" href="./@landing/css/magnific-popup.css?t=zdKjdmMAdsKq321I2d3y1uDZ"> <!-- Resource style -->
+    <link rel="stylesheet" href="./@landing/css/custom.css?t=zdKjdmMAdsKq321I2d3y1uDZ"> <!-- custom style -->
+    <link rel="stylesheet" href="./@landing/css/custom_bs.css?t=zdKjdmMAdsKq321I2d3y1uDZ"> <!-- add style -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-87654259-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WDFR6F9');
+        </script>
+    </head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDFR6F9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header id="main-nav">
+    <div class="container">
+
+        <a id="navigation" href="#"><i class="fa fa-bars"></i></a>
+
+   <div id="slide_out_menu">
+            <a href="#" class="menu-close"><i class="fa fa-times"></i></a>
+            <div class="logo"><img src="./@landing/images/logo-white.png?t=1" alt=""></div>
+            <ul>
+                <li><a href="/#iphone-feature">Demo</a></li>
+                <li><a href="#">Tips</a></li>
+                <li>
+                    <a href="http://mungji.com/portfolio/industries.html">Industries</a>
+                </li>
+                <li>
+                    <a href="#">Instagram Solution</a>
+                    <div class="m-instagram-solution"><a href="http://mungji.com/portfolio/schedule.html">Instagram Scheduler</a></div>
+                    <div class="m-instagram-solution"><a href="http://mungji.com/portfolio/stats.html">Instagram Stats</a></div>
+                </li>
+                <li><a href="/contactUs">Contact Us</a></li>
+                <li style="float:left; margin-top:10px;"><a href="http://mungji.com/portfolio/login.html" class="btn btn-blue top-action-btn mobile-menu-login">LOGIN</a></li>
+
+            </ul>
+            <div class="slide_out_menu_footer">
+                <ul class="socials">
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#" class="clipboard-btn"><i class="fa fa-clipboard"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+       <div class="row">
+            <div class="col-md-4">
+                <ul class="left" id="menu-left-side">
+                    <li><a href="#">Demo</a></li>
+                    <li><a href="#">Tips</a></li>
+                    <li class="dropdown dropdown-nav" style="margin-right: 17px;">
+                        <a href="http://mungji.com/portfolio/industries.html" >
+                            Industries
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="http://mungji.com/portfolio/pepnbirr/index.html" class="logo"><img src="./@landing/images/logo.png" alt="pepnbirr"></a>
+            </div>
+            <div class="col-md-4" style="padding-left:0px;padding-right:17px;">
+                <ul class="right" id="menu-right-side">
+                        <li class="dropdown dropdown-nav" style="margin-right: 17px;">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Instagram Solutions
+                            </a>
+                            <div class="dropdown-wrapper">
+                                <ul class="dropdown-menu">
+                                    <li><a class="u-except" href="schedule.html">Instagram Scheduler</a></li>
+                                    <li><a class="u-except" href="stats.html">Instagram Stats</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    <li style="margin-right:17px;"><a href="/contactUs">Contact Us</a></li>
+                    <li><a href="login.html" class="btn btn-blue u-except top-action-btn hvr-sweep-to-right">Login</a></li>                
+                </ul>
+            </div>
+        </div>
+    </div>
+</header><!-- //Main Nav -->
+
+
+
+
+
+
+
+
+
+
+
+<section id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <h1 class="main_title"><span class="font-small"></span>아직도 인스타그램을 <br>모바일에서 하시나요?!</h1>
+                            <p>매일 시간 계산하고, 사진 옮기고, 캡션까지 모바일에서 적기 힘드셨죠? 더 이상 힘들게 모바일에서 작업하지 마세요. 이제 PC에서 작업 후 원하시는 시간에 게시물을 보다 쉽고 빠르게 그리고 체계적으로 <br>인스타그램 게시물을 관리하실 수 있습니다.</p>
+                            <p style="margin-top:20px;" class="bold-font">-Instagram Scheduler-</p>
+                        </div>
+
+                        <div class="item">
+                            <h1 class="main_title"><span class="font-small"></span>아직도 인스타그램 마케팅을 <br>해야할지 고민이신가요?</h1>
+                            <p>요즘은 SNS를 하는 사람들이 많다보니 사진을 구경하다가 예쁜 옷을 보면 "상품명이 뭐예요?", "이 상품 어디 거예요?" 라는 질문이 많습니다. 질문에 대한 상품 정보를 일일히 답변하기엔 시간이 소비되고 <br>판매는 하고 싶은데 둘다 해결할 방법이 있습니다. 바로 Shoplikes 솔루션입니다.</p>
+                            <p style="margin-top:20px;" class="bold-font">-Instagram Shopping Solution-</p>
+
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators header-carousel carousel_btn">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+                </div>
+                <a href="/join" id="start-down" class="btn btn-lg wow fadeInUp btn-join" data-wow-delay=".3s" data-effect="mfp-zoom-in" style="margin-top: 26px;">무료 회원 가입하기</a>
+            </div>
+            <!-- iPhone -->
+            <img class="header_mac " src="./@landing/images/header_schedule.png" alt="" id="header-title-image">
+            <img class="header_iphone iphone_width" src="./@landing/images/header_iphone.png" alt="" id="header-title-image-1">
+            <!-- //iPhone -->
+        </div>
+    </div>
+</section><!-- //Header -->
+
+<section id="features" >
+    <div class="container" id="three-step">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 feature-item">
+                <div class="feature wow fadeInUp">
+                    <div class="f-icon"><img src="./@landing/images/chart.png"/></div>
+                    <div class="f-description">
+                        <h4>트래픽 증가 및 수익창출</h4>
+                        <p class="feature-text">Shoplikes를 이용해 인스타그램에서<br/> 사이트로 가는 트래픽이 평균<br/> +800% 이상 증가하며 주문 값의<br/> 평균 또한 50% 이상 증가합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 feature-item">
+                <div class="feature wow fadeInUp" data-wow-delay=".1s">
+                    <div class="f-icon"><i class="lnr lnr-cog"></i></div>
+                    <div class="f-description">
+                        <h4>간단한 설치</h4>
+                        <p class="feature-text">Shoplikes는 고객의 편의를 위하여<br/>
+                            간단한 웹링크를 제공하여 <br/>인스타그램을 통해 즉시 제품 페이지<br/> 및 콘텐츠에 방문자가 들어와 <br/>구매할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 feature-item">
+                <div class="feature wow fadeInUp" data-wow-delay=".1s">
+                    <div class="f-icon"><i class="lnr lnr-magic-wand"></i></div>
+                    <div class="f-description">
+                        <h4>맞춤 솔루션</h4>
+                        <p class="feature-text">몇 번의 터치로 다양한 서비스를<br/> 제공하여 새로운 고객 유치 및<br/> 매출에 도움을 줍니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 feature-item">
+                <div class="feature wow fadeInUp">
+                    <div class="f-icon"><img src="./@landing/images/schedule.png"/></div>
+                    <div class="f-description">
+                        <h4>편리해진 인스타그램</h4>
+                        <!-- <p class="feature-text">앞으로 할 일에 대하여 계획을<br/> 짤 수 있으며, 시간을 효율적으로 <br/>절약하여 인스타그램 관리가 훨씬 <br/>수월해졌습니다.</p> -->
+                        <p class="feature-text">인스타그램을 계획적으로, <br/> 시간을 효율적으로 절약하며 <br> 인스타그램 관리가 훨씬<br/> 수월해졌습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10%;">
+            <div class="col-md-5"></div>
+            <div class="col-md-2 text-center wow fadeInUpBig">
+                <a href="#iphone-feature" class="btn page-scroll wow fadeInUp">&nbsp;&nbsp;&nbsp;더보기&nbsp;&nbsp;&nbsp;</a>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+</section><!-- //Features -->
+
+
+
+<section id="iphone-feature">
+    <div class="container" id="iphone-scroll-demo">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-7 wow fadeIn">
+                <h2>
+                    Shoplikes는<br class="none block"/>
+                    새로운 판매 채널
+                </h2>
+                <p>
+                    인스타그램을 판매로 연결 시키기에는<br class="none block"/> 뭔가 연결고리가 끊어진 링크 같았죠?
+                    <br><br>
+                    Shoplikes는 인스타그램의 핵심 기능(팔로우, 댓글, 해시태그.. 등)을
+                    더하여 인스타그램 피드와 연관된 상품을 고객에게 구매까지 연결시켜줌으로서
+                    끊어진 연결 고리를 연결시켰습니다.<br/>
+                    물론, 누구나 할 수 있게 말이죠!
+                </p>
+                <div class="btns-container">
+                    <a href="http://shoplik.es/pepnbirr" target="_blank" class="btn btn-blue">서비스 데모<i class="fa fa-arrow-right"></i></a>
+                    <a href="#map-feature" class="btn page-scroll">&nbsp;&nbsp;&nbsp;더보기&nbsp;&nbsp;&nbsp;</a>
+                </div>
+            </div>
+
+            <div class="iphone-showcase wow fadeInLeft">
+                <div class="device">
+                    <img src="./@landing/images/iphone-feature.png" alt="">
+                </div>
+            </div><!-- //iPhone Showcase -->
+
+
+        </div>
+    </div>
+</section><!-- //iPhone Feature -->
+
+<section id="map-feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 wow fadeIn">
+                <h2>전 세계가 하나로<br class="none block"/> 이어지는 인스타그램을<br/>Shoplikes와 함께</h2>
+                <p>
+                    전 세계 4억 명이 사용하는 인스타그램을<br class="none block"/> Shoplikes 연결하여 마케팅을 함으로써<br class="none block"/>  보다 넓고 다양한 고객층 확보 그리고<br class="none block"/> 고객과 소통함으로써 매출을 상승시킵니다.
+                    <br><br>
+                    이제 Shoplikes와 함께 당신의 인스타그램에<br class="none block"/>
+                    전 세계 잠재 고객을 확보하세요
+                </p>
+                <div class="btns-container">
+                    <a href="#iphone-screens" class="btn page-scroll">&nbsp;&nbsp;&nbsp;더보기&nbsp;&nbsp;&nbsp;</a>
+                </div>
+
+                <div class="map-showcase wow fadeInRight">
+                    <div class="map">
+                        <img src="./@landing/images/map.png" alt="">
+                    </div>
+                </div><!-- //Map Showcase -->
+
+            </div>
+        </div>
+    </div>    
+</section><!-- //Map Feature -->
+
+<section id="iphone-screens">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeInDown" id="best-solution">
+                <h2>최적화된 솔루션</h2>
+                <hr style="margin-top: 20px;">
+                <p class="subtitle">SHOPLIKES' FUNCTION</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="images-showcase wow fadeIn">
+        <ul class="images-list col-md-12">
+            <li class="wow fadeInLeft">
+                <img src="./@landing/images/interface/img-1.png" alt="">
+            </li>
+            <li class="wow fadeInUp">
+                <img src="./@landing/images/interface/img-2.png" alt="">
+            </li>
+            <li class="main-img wow fadeIn" data-wow-delay=".3s">
+                <img src="./@landing/images/interface/main-img.png" alt="">
+            </li>
+            <li class="wow fadeInDown">
+                <img src="./@landing/images/interface/img-3.png" alt="">
+            </li>
+            <li class="wow fadeInRight">
+                <img src="./@landing/images/interface/img-4.png" alt="">
+            </li>
+        </ul>
+    </div>
+
+
+
+
+</section><!-- //iPhone Screens -->
+
+<section id="ready-to-buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="subtitle">SHOPLIKES</p>
+                <h2>지금 바로<br class="none"/> 데모 신청해보세요!</h2>
+                <form role="form" action="/demo" method="post" id="join-form" onSubmit="return emailCheck(this);">
+                    <div class="form-group">
+                        <input type="text" placeholder="이메일을 입력해주세요." name="email" style="font-size: 16px;">
+                        <button type="submit" class="btn btn-green">데모 신청하기</button>
+                    </div>
+                </form>
+                <p class="subtitle">이메일을 입력하시면 <br class="none"/>데모 서비스 신청 페이지로 이동합니다.</p>
+
+            </div>
+        </div>
+    </div>
+</section><!-- //Ready to Buy -->
+
+<section id="customers">
+    <div class="container">
+        <div class="row">
+            <div id="testimonials-slider">
+                <div class="col-md-8 col-md-offset-2 text-center wow fadeInUp" style="height: 490px;">
+
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner text-center">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                                    <img class="img-responsive " src="./@landing/images/icon1.png" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1">
+                                    <img class="img-responsive" src="./@landing/images/icon2.png" alt="">
+                                    <div class="shadow"></div>
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2">
+                                    <img class="img-responsive" src="./@landing/images/icon3.png" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="3">
+                                    <img class="img-responsive" src="./@landing/images/icon4.png" alt="">
+                                </li>
+                            </ol>
+
+
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                                <div class="testimonial">
+                                    <h3>통계 및 분석</h3>
+                                    <p>인스타그램에 팔로워 및 라이크<br class="none"/> 증가율이 궁금하셨죠?<br/>
+                                        Shoplikes는 방문자, 게시물, 배너 등<br class="none"/> 세밀하고도 정확한 통계를<br/>
+                                        지원하며 분석합니다.
+                                    </p>
+
+                                    <p class="customer-name">SHOPLIKES</p>
+                                </div>
+                            </div>
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                <div class="testimonial">
+                                    <h3>다국어 지원</h3>
+                                    <p>세계로 진출은 하고 싶은데<br class="none"/> 고민이 많으시죠?<br/>
+                                        Shoplikes는 세계 여러 나라를 <br class="none"/>진출하기 위한 다국어<br/>
+                                        서비스를 지원하고 있습니다.<br class="none"/> 각 나라의 브라우저 환경에 따라<br/>
+                                        영어, 중국어, 일어로 번역됩니다!</p>
+                                    <p class="customer-name">SHOPLIKES</p>
+                                </div>
+                            </div>
+
+                            <!-- Quote 3 -->
+                            <div class="item">
+                                <div class="testimonial">
+                                    <h3>인스타그램 기능</h3>
+                                    <p>당신의 인스타그램 활성을 위해 <br class="none"/>Shoplikes는
+                                        like, follow, comment와<br class="none block"/> 같은 인스타그램 중요 기능을<br class="none"/> 실시간으로 구현하며 인스타그램에서 보던<br class="none block"/> 게시물 그대로 편리하고 똑똑하게 <br class="none"/>쇼핑할 수 있답니다!
+                                    </p>
+                                    <p class="customer-name">SHOPLIKES</p>
+                                </div>
+                            </div>
+
+
+                            <!-- Quote 4 -->
+                            <div class="item">
+                                <div class="testimonial">
+                                    <h3>인스타그램 스케줄러</h3>
+                                    <p>더 이상 힘들게 모바일에서 작업하지 마세요.<br/>
+                                        매일 시간 계산하고, 사진 옮기고,<br class="none"/> 캡션까지 모바일에서 적기 힘드셨죠?<br/>
+                                        이제 컴퓨터에서 작업 후 원하시는 시간에<br class="none"/> 게시물을 보다 쉽고 빠르게<br class="none block"/>
+                                        그리고 체계적으로 인스타그램을<br class="none"/> 관리하실 수 있습니다.<br/>
+                                        쉿! 샵라익스만 가지고 있는 특허 기술입니다^^
+                                    </p>
+                                    <p class="customer-name">SHOPLIKES</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- Carousel Buttons Next/Prev -->
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- //Customers -->
+
+
+
+<section id="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="subtitle"></p>
+                <h2><span class="font-small">아직도 망설이십니까? 지금이 기회입니다.<br/></span>지금 인스타그램으로 <br class="none"/>판매를 시작하세요.</h2>
+                <form role="form" action="/join" method="get" id="join-form" onSubmit="return emailCheck(this);">
+                    <div class="form-group">
+                        <input type="text" placeholder="이메일을 입력해주세요." class="form-control" name="email" style="font-size: 16px;">
+                        <input type="submit" value="가입하기" class="btn btn-green">
+                    </div>
+                </form>
+                <p class="promise">아직도 회원이 아니세요? 이메일 입력시 가입<br class="none"/> 페이지로 이동합니다.</p>
+
+            </div>
+        </div>
+    </div>
+</section><!-- //Subscribe -->
+
+
+<script>
+
+$(function(){
+
+
+    var headimgTop=$("#header img").offset().top;
+    $('.carousel_btn')css(bottom, headimgTop/3-10);
+  
+    $('#myCarousel').carousel({
+        interval: 25000
+    });
+
+    $('#myCarousel').bind('slide.bs.carousel', function (e) {
+        var index = $(this).find('.active').index();
+        if(index == 0) {
+            $("#header-title-image").fadeOut();
+            $("#header-title-image-1").fadeIn();
+        } else {
+            $("#header-title-image-1").fadeOut();
+            $("#header-title-image").fadeIn();
+        }
+    });
+
+
+    $(window).hashchange( function(a){
+        var m = location.hash;
+        if(m == '#iphone-feature') {
+            var o = $("#iphone-feature").offset();
+            if($(window).width() < 769) {
+                var v = o.top - 85;
+            } else {
+                var v = o.top - 85;
+            }
+
+            $("html, body").stop().animate({
+                scrollTop: v
+            }, 1250, "easeInOutExpo"), a.preventDefault()
+        }
+    })
+    $(window).hashchange();
+
+
+    // 섹션들 해상도에 따른 높이 조정
+    var windowHeight = window.innerHeight;
+    var $hh = $("#header");
+    if(windowHeight > $hh.outerHeight()) {
+        var morePadding = windowHeight - $hh.outerHeight();
+        var hhBottomPadding = parseInt($hh.css('padding-bottom').replace('px', ''));
+        $hh.css('padding-bottom', (hhBottomPadding+morePadding)+'px');
+    }
+
+    var $ph = $("#plan");
+    if(windowHeight > $ph.outerHeight()) {
+        var morePadding = windowHeight - $ph.outerHeight();
+        var phBottomPadding = parseInt($ph.css('padding-bottom').replace('px', ''));
+        $ph.css('padding-bottom', (phBottomPadding+morePadding+100)+'px');
+    }
+
+  /* header images preload*/
+  headerImagePreload('contactus.jpg', 'index.jpg', 'join.jpg', 'login.jpg', 'schedule.jpg', 'stats.jpg');
+});
+
+$(window).on('resize', function(){
+    // 섹션들 해상도에 따른 높이 조정
+    var windowHeight = window.innerHeight;
+    var $hh = $("#header");
+    if(windowHeight > $hh.outerHeight()) {
+        var morePadding = windowHeight - $hh.outerHeight();
+        var hhBottomPadding = parseInt($hh.css('padding-bottom').replace('px', ''));
+        $hh.css('padding-bottom', (hhBottomPadding+morePadding)+'px');
+    }
+    /*
+    var $ph = $("#plan");
+    var morePadding = windowHeight - $ph.outerHeight();
+    var phBottomPadding = parseInt($ph.css('padding-bottom').replace('px', ''));
+    $ph.css('padding-bottom', (phBottomPadding+morePadding+100)+'px');
+    */
+});
+
+var emailCheck = function(e, type) {
+    if(validateEmail($(e).find("input").val())) {
+        if(type == 'join') {
+          console.log('prev 1');
+            $.get('/join', {email:$("#join-email").val(), 'type':'json'}, function(r) {
+              console.log(r);
+              if(r.result == 'already') {
+                $("#error-modal-content").html(r.msg);
+                $("#error-modal").modal();
+              } else {
+                location.href = '/join?email='+encodeURIComponent($("#join-email").val());
+              }
+            }, 'json');
+            return false;
+        } else {
+            return true;
+        }
+    } else {
+        $("#error-modal-content").html('올바른 이메일 주소를 입력해주세요.');
+        $("#error-modal").modal();
+        return false;
+    }
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    <div class="container footer-container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://www.google.co.kr/?gws_rd=ssl#q=pepnbirr" target="_blank"><img class="logo" src="./@landing/images/logo_black.png" alt="pepnbirr" style="width:110px;"></a>
+            </div>
+            <div class="col-md-4">
+                <p>Copyright © 2016 Pepnbirr, LLC. All right reserved.</p>
+            </div>
+            <div class="col-md-4">
+                <ul class="socials">
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/shareArticle?url=http://shoplik.es&mini=Penpnbirr" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#" class="clipboard-btn"><i class="fa fa-clipboard"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</footer>
+
+<link rel="stylesheet" href="./@landing/plugins/jquery.flipster/jquery.flipster.min.css?t=<?=_CACHE_NUMBER_?>"> <!-- Resource style -->
+<script src="./@landing/plugins/jquery.flipster/jquery.flipster.min.js?t=<?=_CACHE_NUMBER_?>"></script>  <!-- Main Script -->
+<script src="./@landing/plugins/jquery.easing/jquery.easing.1.3.js?t=<?=_CACHE_NUMBER_?>"></script>  <!-- Main Script -->
+<script src="./@landing/plugins/bootstrap.validator/validator.min.js?t=<?=_CACHE_NUMBER_?>"></script>  <!-- Main Script -->
+<script src="./@landing/plugins/jquery.hashchange/jquery.ba-hashchange.min.js?t=<?=_CACHE_NUMBER_?>"></script>  <!-- Main Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.13/clipboard.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#price-plan").flipster({
+        itemContainer: '.flipster-container',
+        itemSelector:".flipster-items",
+        style: 'flat',
+        spacing: -0.25,
+        buttons: true,
+        touch: true,
+        scrollwheel: false,
+    });
+});
+</script>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+#food-feature {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #f4f4f5;
+}
+
+#food-feature {
+    position: relative;
+}
+
+
+#food-feature .iphone-showcase {
+    top: 8%;
+}
+
+#food-feature .iphone-showcase {
+    position: absolute;
+    bottom: 110px;
+    right: 50%;
+}
+#food-feature .btns-container {
+    margin-top: 62px;
+}
+#food-feature .btns-container a {
+    margin-right: 20px;
+    margin-bottom: 18px;
+}
+#food-feature .btns-container a:last-child {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 992px){
+	#food-feature {
+    	padding: 80px 0 60px;
+	}
+	#food-feature .iphone-showcase {
+    	position: relative;
+    	bottom: auto;
+    	right: auto;
+    	padding: 0 15px;
+    	margin-top: 64px;
+	}
+	#food-feature .iphone-showcase {
+    	padding: 0;
+	}	
+	#food-feature .iphone-showcase img {
+    	width: 100%;
+	}
+}
+@media only screen and (max-width: 768px){
+	#food-feature {
+    	height: 100%;
+    	padding-top: 10%;
+    	padding-bottom: 10%;
+	}	
+}
+
+@media only screen and (max-width: 575px){
+	.btns-container {
+    	text-align: center;
+	}
+}
+

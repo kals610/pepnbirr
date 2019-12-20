@@ -1,0 +1,124 @@
+.iphone_width{ width:400px;  }
+.feature-text{ text-align:center; }
+.pcompany{ font-size:20px; line-height:28px; margin-bottom:38px;}
+.price_ch{ font-size:11px; line-height:15px;}
+.f-icon img{ margin-bottom:4px; }
+.none{ display:none; }
+.block{ display:block; }
+.main_title{ font-size:58px; }
+#plan .price-table{max-width: 100%;}
+#main-nav .logo{ padding-top:7.25px; }
+#main-nav .logo img{ width:150px; }
+.main_title .font-small{ font-size:20px; }
+#subscribe .font-small{ font-size:20px; }
+.socials{ text-align:right; }
+.btns-container{ margin-top:25px; }
+#ready-to-buy form { margin-bottom: 10px;}
+#subscribe .promise { font-size: 12px; letter-spacing: 0.1em; margin-top: 10px; text-transform: uppercase; font-weight: 700; margin-bottom: 0;}
+
+
+/* #map-feature{ padding:180px 0 200px;} */
+/*#map-feature{ padding:180px 0 300px;}*/
+/* #map-feature {margin-top: 180px; margin-bottom: 300px;} */
+
+
+
+/*==========161202 추가===============*/
+h4{ font-size:25px; }
+#features .feature { padding: 0px 0px;}
+
+
+#customers .carousel-indicators li {width:24%; padding-left:30px; padding-right: 30px;}
+
+@media only screen and (max-width: 992px) {
+ 	h2{ font-size:42px; }
+ 	h4{ font-size:21px; }
+ 	.feature-text{ font-size:13px; }
+ 	.none{ display:none;}
+	#iphone-feature .iphone-showcase { padding:0;}
+
+	#customers .carousel-indicators li {width:24%; padding-left:5px; padding-right: 5px;}
+}
+@media only screen and (max-width: 768px) {
+	.images-showcase-swiper {display: inline-block;}
+	.socials{ text-align:left; }
+	#header {height: 100%;}
+	#features {height: 100%; padding-top:10%; padding-bottom: 10%;}
+	#iphone-feature {height: 100%; padding-top:10%; padding-bottom: 10%;}
+	#map-feature{height: 100%; padding-top: 10%; padding-bottom: 10%;}
+	#iphone-screens {height: 100%; padding-top:10%; padding-bottom: 430px}
+	#plan {height: 100%; padding-top: 10%; padding-bottom: 10%;}
+}
+@media only screen and (max-width: 575px) {
+	h2{ font-size:35px; text-align:center; }
+	p{ text-align:center; font-size:14px; }
+	.block{ display:block; }
+	.none{ display:block; }
+	.btns-container{ text-align:center; }
+	.socials{text-align:center;}
+	#footer .logo{ margin-left:36%; }
+	#plan .toggle-container{ margin-left:16%; }
+	#header .header_iphone{ bottom:-252px; margin-left:-150px; width:300px;}
+	.main_title{ font-size:26px; line-height:68px; margin-bottom:30px;}
+	#header p{ font-size:15px;}
+	.socials{ text-align:center; }
+}
+@media only screen and (max-width: 375px) {
+	h2{ font-size:31px; text-align:center; }
+	p{ text-align:center; font-size:14px; }
+	.block{ display:block; }
+	.none{ display:block; }
+	.btns-container{ text-align:center; }
+	.socials{text-align:center;}
+	#subscribe .font-small{ font-size:18px; }
+	#footer .logo{ margin-left:34%; }
+	#plan .toggle-container{ margin-left:12%; }
+	.main_title{ font-size:24px; line-height:56px; margin-bottom:30px;}
+	#header p{ font-size:14px;}
+
+	#customers .carousel-indicators li {width:20%; padding-left:5px; padding-right: 5px;}
+	/*v1*/
+	/*#customers .carousel-indicators li {width: 80px;height: 80px;}*/
+}
+@media only screen and (max-width: 320px) {
+
+	h2{ font-size:27px; }
+	p{ font-size:12px; }
+	#footer .logo{ margin-left:31%; }
+	#subscribe .font-small{ font-size:16px; }
+	#plan .toggle-container{ margin-left:5%; }
+	.price_ch{ font-size:7px; line-height:15px;}
+	.main_title{ font-size:25px; line-height:50px; margin-bottom:20px;}
+	#header p{ font-size:15px;}
+
+	/*v1*/
+	/*#customers .carousel-indicators li {width: 70px;height: 70px;}*/
+}
+
+
+
+#customers .carousel-indicators li:first-child {
+	float: none;
+}
+
+#customers .carousel-indicators li:last-child {
+	float: none;
+}
+
+
+#customers .carousel-indicators li img {text-align: center;}
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+

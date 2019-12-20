@@ -1,0 +1,83 @@
+.title_h3{ font-size:24px; margin-bottom: 20px; color: #3D4351;}
+
+.intro-icon {display: inline-block; vertical-align: top; padding: 6px 0 0 0; margin-right: 20px;width: 40px;}
+.intro-icon span.icon {font-size: 35px; color: #FF9436; font-weight: bold;}
+
+.feature-icon span.icon {font-size: 35px; color: #FF9436; font-weight: bold;}
+
+.features ul.features-stack li { margin-top: 20px;padding-bottom: 20px; border-bottom: solid 1px #E6E9EA;}
+
+.schedule-feature { background: #F3F4F8;  }
+.mobile_img{ width:70%; float:right; }
+#iphone-feature{ padding: 13% 0 10%; height: 100vh;}
+
+#features {   padding-top: 10%; height:100%; padding-bottom: 10%; }
+#header {padding: 200px 0 100px;background-image: url(../images/schedule_bg3.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative; overflow: hidden;}
+
+#map-feature{  padding: 10% 0 10%; height:100%; }
+
+.schedule-header{ min-height: 503px; height:50%; }
+.hero-strip .btn { border:1px solid #fff; color:#fff;}
+.macbook_img img { padding-left:23%; }
+#main-nav .logo img{ width:150px; }
+.btn_black{     border-radius: 5px; width: 72px; height: 30px; line-height: 9px; border:1px solid #26272d !important; color:#26272d !important; background-color:rgba(255,255,255,0); }
+.btn_black:hover{cursor:pointer; border:1px solid #26272d !important; color:#fff !important; background-color:rgba(255,255,255,0.2); }
+
+
+/*#map-feature .map-showcase { position: absolute; bottom: 13px; left: 100%;}*/
+@media only screen and (max-width: 992px) {
+    .feature-text{ font-size:13px; }
+
+    #customers .carousel-indicators li {width:24%; padding-left:5px; padding-right: 5px;}
+
+    .blog-intro .rightcol{padding: 0 20px;}
+    .blog-intro .leftcol { padding: 0 15px; margin-bottom: 15px;border-right: none;}
+    .iphone-showcase { display: block; width: 60%; margin: 15% auto 0;}
+    .socials{ text-align:left; }
+    #iphone-feature{ padding: 13% 0 10%; height: 100%;}
+    .macbook_img { display: block; width: 100%; margin: 15% auto 0;}
+
+    .macbook_img img { padding-left:0; }
+
+}
+@media only screen and (max-width: 768px) {
+    .images-showcase-swiper {display: inline-block;}
+    .socials{ text-align:left; }
+    #header {height: 100%;}
+    #features {height: 100%; padding-top:10%; padding-bottom: 10%;}
+    #iphone-feature {height: 100%; padding-top:10%; padding-bottom: 10%;}
+    #map-feature{height: 100%; padding-top: 10%; padding-bottom: 10%;}
+    #iphone-screens {height: 100%; padding-top:10%; padding-bottom: 430px}
+    #plan {height: 100%; padding-top: 10%; padding-bottom: 10%;}
+
+
+}
+@media only screen and (max-width: 575px) {
+    p{ text-align:left; font-size:14px; }
+    .block{ display:block; }
+    .btns-container{ text-align:center; }
+    #footer .logo{ margin-left:36%; }
+    #header .header_iphone{ bottom:-252px; margin-left:-150px; width:300px;}
+    .main_title{ font-size:26px; line-height:68px; margin-bottom:30px;}
+    #header p{ font-size:15px;}
+    .socials{ text-align:center; }
+}
+@media only screen and (max-width: 375px) {
+    .block{ display:block; }
+    .btns-container{ text-align:center; }
+    .socials{text-align:center;}
+    #footer .logo{ margin-left:34%; }
+    .main_title{ font-size:24px; line-height:56px; margin-bottom:30px;}
+    #header p{ font-size:14px;}
+
+    #customers .carousel-indicators li {width:20%; padding-left:5px; padding-right: 5px;}
+    
+}
+@media only screen and (max-width: 320px) {
+
+    p{ font-size:12px; }
+    #footer .logo{ margin-left:31%; }
+    .main_title{ font-size:25px; line-height:50px; margin-bottom:20px;}
+    #header p{ font-size:15px;}
+
+}
